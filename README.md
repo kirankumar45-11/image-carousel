@@ -36,7 +36,7 @@
   </body>
 </html>
 
-
+script.js
 
 const imgs = document.getElementById('imgs')
 const leftBtn = document.getElementById('left')
@@ -82,6 +82,7 @@ leftBtn.addEventListener('click', () => {
 
 
 
+style.css
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
