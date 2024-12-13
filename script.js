@@ -28,6 +28,13 @@ function resetInterval() {
     interval = setInterval(run, 2000)
 }
 
+function stopAutoScroll() {
+    clearInterval(interval)
+}
+
+// Stop auto scroll when the carousel or images are clicked
+imgs.addEventListener('click', stopAutoScroll)
+
 rightBtn.addEventListener('click', () => {
     idx++
     changeImage()
